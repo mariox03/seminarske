@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<title>Skriti naravni biseri Slovenije</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="index.js"></script>
+
+<body class="w3-content" style="max-width:1200px;">
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <img src="images/logo.png">
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+	<a onclick="myAccFunc()" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+    Ne spreglejte<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="font" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="izleti.html" class="w3-bar-item w3-button">Izleti</a>
+      <a href="gore.html" class="w3-bar-item w3-button">Gore</a>
+    </div>
+    <a href="#" onclick="poskusi()" class="w3-bar-item w3-button">Jame Slovenije<span class="glyphicon glyphicon-ban-circle"></span></a>
+    <a href="#" onclick="poskusi()" class="w3-bar-item w3-button">Hribi Slovenije<span class="glyphicon glyphicon-ban-circle"></span></a>
+    <a href="#" onclick="poskusi()" class="w3-bar-item w3-button">Reke Slovenije<span class="glyphicon glyphicon-ban-circle"></span></a>
+	
+  </div>
+</nav>
+
+
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Skriti naravni biseri Slovenije</p>
+  </header>
+
+  <div class="w3-display-container w3-container">
+    <img src="images/slika1.png" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:2px 38px; margin-top: -1px; margin-left: -22px">
+    </div>
+  </div>
+	<br>
+	<iframe width="660" height="415" src="https://www.youtube.com/embed/2cDZHvrgTBQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Stik</h4>
+        <p>Vprašanje?</p>
+        <form action="/action_page.php" target="">
+          <p><input class="w3-input w3-border" type="text" placeholder="Ime" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Predmet" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Sporočilo" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-red">Pošlji</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4></h4>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+        <p><a href="#"></a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Kontakt</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> <a href="zemljevid.html">Biseri</a></p>
+        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+        <p><i class="fa fa-fw fa-envelope"></i> <a href="mailto:random@email.com">random@email.com</a></p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+
+	<div class="w3-red w3-center w3-padding-24">Spletišče je izdelano kot seminarska naloga pri predmetu NSA (Načrtovanje spletnih aplikacij) 
+	<br>
+	Spletišče izdelal: Aljaž Vičič
+	</div>
+
+  
+</div>
+
+
+</body>
+</html>

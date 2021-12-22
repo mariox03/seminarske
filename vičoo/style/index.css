@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+table {
+  font-family: "Orbitron", sans-serif;
+}
+
+.naslov {
+  color: maroon;
+}
+
+.stat {
+  color: blue;
+}
+
+.denar {
+  color: darkgreen;
+}
+
+.w3-sidebar a {
+  font-family: "Roboto", sans-serif;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.w3-wide {
+  font-family: "Orbitron", sans-serif;
+}
+nav {
+  background-color: grey;
+}
+
+iframe {
+  margin-left: 200px;
+}
+
+#font {
+  font-family: "Orbitron", sans-serif;
+}
